@@ -1,3 +1,3 @@
 # AdofaiModManager
 
-## A New ModManager For Adofai
+- A New ModManager For Adofai
