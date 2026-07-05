@@ -1,4 +1,4 @@
-﻿namespace AdofaiModManager
+namespace AdofaiModManager
 {
     partial class ModManager
     {
@@ -106,9 +106,9 @@
             this.ModName,
             this.ModVersion});
             this.ModList.HideSelection = false;
-            this.ModList.MultiSelect = false;
+            this.ModList.MultiSelect = true;
             this.ModList.Name = "ModList";
-            this.ModList.Sorting = System.Windows.Forms.SortOrder.Ascending;
+            this.ModList.Sorting = System.Windows.Forms.SortOrder.None;
             this.ModList.UseCompatibleStateImageBehavior = false;
             this.ModList.View = System.Windows.Forms.View.Details;
             // 
@@ -143,7 +143,7 @@
             this.DisableModName,
             this.DisableModVersion});
             this.DisableModList.HideSelection = false;
-            this.DisableModList.MultiSelect = false;
+            this.DisableModList.MultiSelect = true;
             this.DisableModList.Name = "DisableModList";
             this.DisableModList.UseCompatibleStateImageBehavior = false;
             this.DisableModList.View = System.Windows.Forms.View.Details;
@@ -338,7 +338,7 @@
             this.Controls.Add(this.Select);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.MaximizeBox = false;
+            this.MaximizeBox = true;
             this.Name = "ModManager";
             this.Installed.ResumeLayout(false);
             this.Select.ResumeLayout(false);
